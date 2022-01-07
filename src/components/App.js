@@ -3,7 +3,7 @@
 import Buttonzin from "./Button"
 import {useState} from "react"
 
-const bodyStyle ={
+const bodyStyle = {
     backgroundColor : "green",
     height: "100%",
     textAlign:"center"
@@ -11,7 +11,9 @@ const bodyStyle ={
 
 const titleStyle = {
     color:"white",
-    fontSize: "1em"
+    fontSize: "3em",
+    margin:"0",
+    fontFamily: "TimesNewRoman"
 }
 
 function Contador() {

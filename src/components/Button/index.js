@@ -3,7 +3,7 @@
 const buttonStyle = {
     backgroundColor: "purple",
     color:"white",
-    fontFamily: "Arial",
+    fontFamily: "TimesNewRoman",
     fontSize:"3em"
 }
 
@@ -13,5 +13,6 @@ const Buttonzin = ({name,...rest}) => { //rest é o restante(sempre ultimo), tir
         )
 
 }
+
 
 export default Buttonzin
