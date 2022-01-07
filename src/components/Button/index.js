@@ -7,7 +7,7 @@ const buttonStyle = {
     fontSize:"3em"
 }
 
-const Buttonzin = ({name,...rest}) => {
+const Buttonzin = ({name,...rest}) => { //rest é o restante(sempre ultimo), tirando o antes dele
         return(
             <button style = {buttonStyle} {...rest}>{name}</button>
         )
